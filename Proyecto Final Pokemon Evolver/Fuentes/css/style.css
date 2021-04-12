@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#pok-list{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: rgba(8, 11, 207, 0.76);
+    font-weight: bold;
+}
+
+.lista{
+    width: 15%;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+#pok-img{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#pok-name{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3em;
+    font-style: italic;
+
+}
+
+.button1{
+    position: absolute;
+    left: 88%;
+    top: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(6, 240, 37);
+    font-weight: 600;
+    background-color: green;
+    border-radius: 10px;
+    border: 3px solid rgb(6, 58, 6);
+}
+
+.button2{
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:rgb(8, 220, 228);
+    font-weight: 600;
+    background-color: blue;
+    border-radius: 10px;
+    border: 3px solid rgb(8, 8, 61);
+}
+
+#tipo{
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(0, 136, 141);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 2em;
+}
+
+#region{
+    position: absolute;
+    left: 75%;
+    top: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(238, 9, 219);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 2em;
+}
+
+#gen{
+    position: absolute;
+    left: 75%;
+    top: 26%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(115, 255, 0);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 2em;
+}
+
+#desc{
+    position: absolute;
+    left: 77%;
+    top: 47%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(238, 255, 0);
+    font-family: "Lucida Console", Courier, monospace;;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-weight: bold;
+}

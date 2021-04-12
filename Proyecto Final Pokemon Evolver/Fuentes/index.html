@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Evolver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icono.ico">
+</head>
+<body href="https://www.alfabetajuega.com/wp-content/uploads/2020/02/pokemon-pokeball-fondo-770x433.jpg">
+    <div id="pok-list" data-bind="foreach: pokList">
+        <li class="lista" style="cursor:pointer;" data-bind="text: name, click: $parent.setPok"></li>
+    </div>
+    <div id="pok" data-bind="with: currentPok">
+        <h2 id="pok-name" data-bind="text: name"></h2>
+        <img id="pok-img" href="" src="" data-bind="attr: {href: url, src: imgSrc}">
+        <input class="button1" type="button" style="cursor:pointer;" value="Click para evolucionar" data-bind="click: $parent.incrementCounter">
+        <input class="button2" type="button" style="cursor:pointer;" value="Click para regresar" data-bind="click: $parent.decrementCounter">
+        <h3 id="tipo" data-bind="text: tipo"></h3>
+        <h3 id="region" data-bind="text: region"></h3>
+        <h4 id="gen" data-bind="text: gen"></h4>
+        <h5 id="desc" data-bind="text: desc"></h5>
+    </div>
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
